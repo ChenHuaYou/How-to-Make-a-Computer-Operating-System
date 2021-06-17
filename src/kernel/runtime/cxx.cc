@@ -70,6 +70,10 @@ void operator delete(void *ptr)
 		kfree(ptr);
 }
 
+void operator delete(void * ptr, size_t size) {
+    ::operator delete(ptr); 
+}
+
 #ifndef __arm__
 void* operator new(size_t len) 
 {

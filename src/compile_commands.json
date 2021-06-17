@@ -1,0 +1,5648 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/stime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/stime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/e_pow.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/e_pow.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fdopen.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fdopen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/gmtime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/gmtime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/mktemp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/mktemp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/setregid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/setregid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/exit.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/exit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/umask.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/umask.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/locale/setlocale.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/locale/setlocale.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/sigismember.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/sigismember.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_floor.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_floor.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/gettid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/gettid.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/file.o",
+            "core/file.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/file.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/class.o",
+            "core/class.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/class.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "arch/x86/x86.o",
+            "arch/x86/x86.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "arch/x86/x86.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/memset.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/memset.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/gmtime_r.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/gmtime_r.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/ispunct.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/ispunct.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fileno.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fileno.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/system.o",
+            "core/system.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/system.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/pwrite.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/pwrite.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/getopt/getopt_long_only.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/getopt/getopt_long_only.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/os.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/os.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/gettimeofday.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/gettimeofday.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/perror.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/perror.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fseek.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fseek.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/setvbuf.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/setvbuf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/setpgrp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/setpgrp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/memchr.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/memchr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/memmove.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/memmove.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/strtod.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/strtod.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fopen.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fopen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/ftruncate.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/ftruncate.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/strtoll.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/strtoll.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/ctime_r.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/ctime_r.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isxdigit.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isxdigit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/e_atan2.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/e_atan2.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isgraph.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isgraph.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getgid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getgid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/umount.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/umount.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "runtime/buffer.o",
+            "runtime/buffer.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "runtime/buffer.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/atof.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/atof.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/feof.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/feof.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/thread.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/thread.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isalnum.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isalnum.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getpid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getpid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/termios/tcsetattr.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/termios/tcsetattr.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "arch/x86/alloc.o",
+            "arch/x86/alloc.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "arch/x86/alloc.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/tolower.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/tolower.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_cos.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_cos.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/pread.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/pread.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/rmdir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/rmdir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/alarm.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/alarm.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/chmod.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/chmod.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/user.o",
+            "core/user.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/user.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strncpy.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strncpy.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/qsort.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/qsort.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "arch/x86/io.o",
+            "arch/x86/io.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "arch/x86/io.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/islower.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/islower.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strstr.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strstr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getdtablesize.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getdtablesize.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/kill.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/kill.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fflush.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fflush.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/mkdir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/mkdir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/ungetc.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/ungetc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/strtol.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/strtol.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/stdtty.o",
+            "modules/stdtty.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/stdtty.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isascii.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isascii.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/sigemptyset.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/sigemptyset.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/sbrk.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/sbrk.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/fork.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/fork.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/setgid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/setgid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fread.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fread.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/mmap.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/mmap.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/semaphore.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/semaphore.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/streams.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/streams.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/sigdelset.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/sigdelset.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fgets.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fgets.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/e_hypot.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/e_hypot.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strspn.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strspn.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fclose.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fclose.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/getopt/getopt.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/getopt/getopt.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/env.o",
+            "core/env.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/env.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/setreuid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/setreuid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/socket.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/socket.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/strftime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/strftime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/close.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/close.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/pwd/setpwent.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/pwd/setpwent.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/ferror.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/ferror.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/remove.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/remove.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fwrite.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fwrite.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/lseek.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/lseek.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/getc.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/getc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strrchr.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strrchr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_sin.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_sin.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/freopen.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/freopen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strdup.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strdup.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/dup.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/dup.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strcpy.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strcpy.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "runtime/cxx.o",
+            "runtime/cxx.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "runtime/cxx.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/module.o",
+            "modules/module.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/module.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/mount.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/mount.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fputs.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fputs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/clearerr.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/clearerr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/pwd/getpwuid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/pwd/getpwuid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/wait.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/wait.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/tzset.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/tzset.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/syscalls.o",
+            "core/syscalls.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/syscalls.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/putc.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/putc.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "runtime/string.o",
+            "runtime/string.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "runtime/string.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/e_log10.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/e_log10.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strcat.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strcat.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/network/inet_aton.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/network/inet_aton.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/ide.o",
+            "modules/ide.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/ide.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getdents.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getdents.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/pwd/endpwent.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/pwd/endpwent.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strncmp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strncmp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fgetc.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fgetc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/lstat.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/lstat.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/readdir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/readdir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strtok_r.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strtok_r.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/debug.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/debug.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/fcntl/fcntl.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/fcntl/fcntl.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strndup.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strndup.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isspace.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isspace.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/math/s_modf.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/math/s_modf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/toupper.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/toupper.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/puts.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/puts.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/support_supcon.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/support_supcon.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/dospartition.o",
+            "modules/dospartition.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/dospartition.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/clock_x86.o",
+            "modules/clock_x86.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/clock_x86.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/start.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/start.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strncasecmp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strncasecmp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/support_pf.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/support_pf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/dup2.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/dup2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/fchdir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/fchdir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_finite.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_finite.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/region.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/region.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/utime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/utime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/rand.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/rand.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/sigaddset.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/sigaddset.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/setpgid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/setpgid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/ioctl.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/ioctl.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getcwd.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getcwd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/sigprocmask.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/sigprocmask.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/longjmp.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/longjmp.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/wait4.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/wait4.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/e_exp.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/e_exp.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/nanosleep.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/nanosleep.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isalpha.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isalpha.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/atoi.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/atoi.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/getopt/getopt_long.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/getopt/getopt_long.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/isatty.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/isatty.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/setjmp.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/setjmp.S"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/process.o",
+            "core/process.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/process.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/udivmoddi4.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/udivmoddi4.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getegid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getegid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/toascii.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/toascii.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/termios/tcgetpgrp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/termios/tcgetpgrp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/execv.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/execv.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/fcntl/creat.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/fcntl/creat.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/filesystem.o",
+            "core/filesystem.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/filesystem.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/srand.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/srand.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/support_bufio.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/support_bufio.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/termios/tcgetattr.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/termios/tcgetattr.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "runtime/itoa.o",
+            "runtime/itoa.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "runtime/itoa.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/memcmp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/memcmp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/getenv.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/getenv.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/chdir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/chdir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/asctime_r.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/asctime_r.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/sigaction.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/sigaction.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/null.o",
+            "modules/null.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/null.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/kernel.o",
+            "core/kernel.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/kernel.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strnlen.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strnlen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strchr.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strchr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/random.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/random.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/killpg.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/killpg.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/sleep.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/sleep.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/closedir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/closedir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/putchar.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/putchar.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/connect.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/connect.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isblank.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isblank.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/e_log.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/e_log.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/read.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/read.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/write.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/write.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/geteuid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/geteuid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sscanf.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sscanf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/atol.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/atol.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/time_int.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/time_int.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/waitpid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/waitpid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/ftell.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/ftell.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strpbrk.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strpbrk.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/abs.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/abs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/ttyname.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/ttyname.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/pwd/getpwent.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/pwd/getpwent.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/llabs.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/llabs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/time.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/time.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/bsearch.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/bsearch.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_ceil.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_ceil.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/ctime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/ctime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/strtoull.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/strtoull.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/asctime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/asctime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/localtime_r.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/localtime_r.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/abort.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/abort.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_fabs.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_fabs.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/pipe.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/pipe.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/elf_loader.o",
+            "core/elf_loader.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/elf_loader.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/socket.o",
+            "core/socket.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/socket.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isprint.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isprint.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/mkstemp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/mkstemp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_scalbn.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_scalbn.S"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/api_posix.o",
+            "core/api_posix.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/api_posix.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/rewinddir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/rewinddir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/sysinfo.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/sysinfo.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/s_frexp.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/s_frexp.S"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/keys.o",
+            "modules/keys.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/keys.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/labs.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/labs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getpgrp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getpgrp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/readlink.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/readlink.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/gethostname.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/gethostname.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/access.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/access.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/termios/tcsetpgrp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/termios/tcsetpgrp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/locale/localeconv.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/locale/localeconv.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/iscntrl.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/iscntrl.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-I",
+            "../../sdk/include",
+            "-Wall",
+            "-fno-builtin",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "main.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/userland/helloworld",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getppid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getppid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/atoll.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/atoll.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strtok.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strtok.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "runtime/memory.o",
+            "runtime/memory.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "runtime/memory.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/execve.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/execve.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/chown.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/chown.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/srandom.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/srandom.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strcspn.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strcspn.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strcmp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strcmp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/opendir.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/opendir.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strsignal.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strsignal.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/network/inet_ntoa.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/network/inet_ntoa.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isupper.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isupper.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/utimes.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/utimes.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/unlink.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/unlink.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/fcntl/open.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/fcntl/open.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/localtime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/localtime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/rename.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/rename.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/execlp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/execlp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/math/e_fmod.S"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/math/e_fmod.S"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/math/s_ldexp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/math/s_ldexp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strerror.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strerror.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/bochsvbe.o",
+            "modules/bochsvbe.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/bochsvbe.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/execvp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/execvp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "arch/i386/getpagesize.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "arch/i386/getpagesize.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/module.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/module.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/raise.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/raise.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fpurge.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fpurge.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/stdio_internal.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/stdio_internal.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/symlink.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/symlink.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/modulelink.o",
+            "core/modulelink.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/modulelink.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "arch/x86/architecture.o",
+            "arch/x86/architecture.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "arch/x86/architecture.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getuid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getuid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/rewind.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/rewind.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/malloc.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/malloc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/ipc.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/ipc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/termios/tcflow.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/termios/tcflow.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/termios/tcflush.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/termios/tcflush.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/select.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/select.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/os/syscall.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/os/syscall.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdio/fputc.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdio/fputc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/pwd/getpwnam.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/pwd/getpwnam.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strcasecmp.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strcasecmp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/fstat.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/fstat.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strncat.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strncat.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/setuid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/setuid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/time/mktime.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/time/mktime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/wait3.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/wait3.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/sys/stat.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/sys/stat.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/x86serial.o",
+            "modules/x86serial.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/x86serial.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "arch/x86/vmm.o",
+            "arch/x86/vmm.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "arch/x86/vmm.cc"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "core/device.o",
+            "core/device.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "core/device.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/link.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/link.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/sigfillset.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/sigfillset.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/getpgid.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/getpgid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/stdlib/strtoul.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/stdlib/strtoul.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/ctype/isdigit.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/ctype/isdigit.c"
+    },
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "./modules",
+            "-I",
+            "./core",
+            "-I",
+            "./arch/x86",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-builtin",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-nostdlib",
+            "-nodefaultlibs",
+            "-D__x86__",
+            "-o",
+            "modules/ext2.o",
+            "modules/ext2.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/kernel",
+        "file": "modules/ext2.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/memcpy.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/memcpy.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/unistd/fpathconf.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/unistd/fpathconf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/signal/signal.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/signal/signal.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-w",
+            "-m32",
+            "-Wa,--32",
+            "-g",
+            "-nostdlib",
+            "-nostdinc",
+            "-trigraphs",
+            "-I",
+            "../../include",
+            "src/string/strlen.c"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
+        "file": "src/string/strlen.c"
+    }
+]
