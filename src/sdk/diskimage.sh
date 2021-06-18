@@ -26,7 +26,7 @@ mke2fs $DEVICE
 mount  $DEVICE /mnt/
 cp -R bootdisk/* /mnt/
 umount /mnt/
-grub-mkdevicemap --device-map=/dev/null << EOF
+grub --device-map=/dev/null << EOF
 device (hd0) ./c.img
 geometry (hd0) 4 16 63
 root (hd0,0)
