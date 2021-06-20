@@ -109,7 +109,7 @@ int execv(char* file,int argc,char** argv){
 		name=__default_proc_name;
 	else
 		name=argv[0];
-	//io.print("exec %s > %s\n",file,name);
+	io.print("exec %s > %s\n",file,name);
 
 	Process* proc=new Process(name);
 	proc->create(map_elf,argc,argv);

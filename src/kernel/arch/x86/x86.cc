@@ -292,50 +292,51 @@ void isr_GP_exc(void)
 
 void isr_PF_exc(void)
 {
-	u32 faulting_addr, code;
-	u32 eip;
-	struct page *pg;
-	u32 stack;
- 	asm(" 	movl 60(%%ebp), %%eax	\n \
-    		mov %%eax, %0		\n \
-		mov %%cr2, %%eax	\n \
-		mov %%eax, %1		\n \
- 		movl 56(%%ebp), %%eax	\n \
-    		mov %%eax, %2"
-		: "=m"(eip), "=m"(faulting_addr), "=m"(code));
-	 asm("mov %%ebp, %0": "=m"(stack):);
-	
-	//io.print("#PF : %x \n",faulting_addr);
-	
-	//for (;;);
-		if (arch.pcurrent==NULL)
-			return;
-			
-		process_st* current=arch.pcurrent->getPInfo();
+    u32 faulting_addr, code;
+    u32 eip;
+    struct page *pg;
+    u32 stack;
+    asm(" 	movl 60(%%ebp), %%eax	\n \
+            mov %%eax, %0		\n \
+            mov %%cr2, %%eax	\n \
+            mov %%eax, %1		\n \
+            movl 56(%%ebp), %%eax	\n \
+            mov %%eax, %2"
+            : "=m"(eip), "=m"(faulting_addr), "=m"(code));
+    asm("mov %%ebp, %0": "=m"(stack):);
 
-	if (faulting_addr >= USER_OFFSET && faulting_addr <= USER_STACK) {
-		pg = (struct page *) kmalloc(sizeof(struct page));
-		pg->p_addr = get_page_frame();
-		pg->v_addr = (char *) (faulting_addr & 0xFFFFF000);
-		list_add(&pg->list, &current->pglist);
-		pd_add_page(pg->v_addr, pg->p_addr, PG_USER, current->pd);
-	}
-	else {
-		io.print("\n");
-		io.print("No autorized memory acces on : %p (eip:%p,code:%p)\n", faulting_addr,eip,  code);
-		io.print("heap=%x, heap_limit=%x, stack=%x\n",kern_heap,KERN_HEAP_LIM,stack);
-		
-		if (arch.pcurrent!=NULL){
-			io.print("The processus %s have to be killed !\n\n",(arch.pcurrent)->getName());
-			(arch.pcurrent)->exit();
-			schedule();
-		}
-		else{
-			io.print("The kernel have to be killed !\n\n");
-			asm("hlt");
-		}
-	}
-		
+    //io.print("#PF : %x \n",faulting_addr);
+
+    //for (;;);
+    if (arch.pcurrent==NULL)
+        return;
+
+    process_st* current=arch.pcurrent->getPInfo();
+
+    if (faulting_addr >= USER_OFFSET && faulting_addr <= USER_STACK) {
+        //io.print("#PF : %x come in >>>>>\n",faulting_addr);
+        pg = (struct page *) kmalloc(sizeof(struct page));
+        pg->p_addr = get_page_frame();
+        pg->v_addr = (char *) (faulting_addr & 0xFFFFF000);
+        list_add(&pg->list, &current->pglist);
+        pd_add_page(pg->v_addr, pg->p_addr, PG_USER, current->pd);
+    }
+    else {
+        io.print("\n");
+        io.print("No autorized memory acces on : %p (eip:%p,code:%p)\n", faulting_addr,eip,  code);
+        io.print("heap=%x, heap_limit=%x, stack=%x\n",kern_heap,KERN_HEAP_LIM,stack);
+
+        if (arch.pcurrent!=NULL){
+            io.print("The processus %s have to be killed !\n\n",(arch.pcurrent)->getName());
+            (arch.pcurrent)->exit();
+            schedule();
+        }
+        else{
+            io.print("The kernel have to be killed !\n\n");
+            asm("hlt");
+        }
+    }
+
 }
 
 

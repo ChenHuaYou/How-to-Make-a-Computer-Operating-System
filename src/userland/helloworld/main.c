@@ -8,5 +8,8 @@
 
 int main(int argc,char **argv){
 	printf("hello world ! \n");
+    char buf[100];
+    fgets(buf,50,stdin);
+	printf(">>:: %s \n",buf);
 	return 0;
 }

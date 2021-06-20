@@ -8,6 +8,7 @@
 
 int fputc( int c, FILE* stream ) {
     /* Check if we can write to the stream */
+    //printf(">>>fputc<<<<\n");
 
     if ( ( ( stream->flags & __FILE_CAN_WRITE ) == 0 ) ||
          ( __set_stream_flags( stream, 0 ) ) ) {

@@ -3401,6 +3401,8 @@
             "./core",
             "-I",
             "./arch/x86",
+            "-I",
+            "../../sdk/include",
             "-g",
             "-O2",
             "-w",
@@ -5644,5 +5646,68 @@
         ],
         "directory": "/home/chen/workspace/toyOs/src/sdk/src/libc",
         "file": "src/string/strlen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-I",
+            "../../kernel/core",
+            "-I",
+            "../../kernel/runtime",
+            "-I",
+            "../../kernel/arch/x86",
+            "-I",
+            "../../sdk/include",
+            "-Wall",
+            "-fno-builtin",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-D__x86__",
+            "-fno-rtti",
+            "main.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/userland/bash",
+        "file": "main.cc"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-I",
+            "./",
+            "-I",
+            "../../kernel/core",
+            "-I",
+            "../../kernel/modules",
+            "-I",
+            "../../kernel/arch/x86",
+            "-I",
+            "../../sdk/include",
+            "-Wall",
+            "-fno-builtin",
+            "-g",
+            "-O2",
+            "-w",
+            "-trigraphs",
+            "-fno-exceptions",
+            "-fno-stack-protector",
+            "-O0",
+            "-m32",
+            "-fno-rtti",
+            "-o",
+            "bash.o",
+            "bash.cc"
+        ],
+        "directory": "/home/chen/workspace/toyOs/src/userland/bash",
+        "file": "bash.cc"
     }
+
+
 ]

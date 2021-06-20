@@ -22,6 +22,9 @@ void _start(int argc, char** argv) {
 	stdout=fdopen(0,"rw");
 	stdin=fdopen(1,"rw");
 	stderr=fdopen(2,"rw");
+    fputs("_start !!\n",stdin);
+    char buf[100];
+    
 	int error;
     environ = 0;
     __environ_allocated = 0;

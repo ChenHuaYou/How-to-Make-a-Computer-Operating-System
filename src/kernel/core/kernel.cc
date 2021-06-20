@@ -1,6 +1,7 @@
 
 #include <os.h>
 #include <boot.h>
+#include <elf_loader.h>
 
 
 static char* init_argv[2]={"init","-i"};
@@ -70,6 +71,7 @@ extern "C" void kmain(multiboot_info* mbi){
 	io.print("\n");
 	io.print("  ==== System is ready (%s - %s) ==== \n",KERNEL_DATE,KERNEL_TIME);
 	arch.enable_interrupt();
+    execv("/bin/sh", 0, NULL);
 	for (;;);
 	arch.shutdown();
 }

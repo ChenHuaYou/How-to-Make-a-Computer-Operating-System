@@ -10,6 +10,7 @@ int fgetc( FILE* stream ) {
     unsigned char c;
 
     /* Check if we can read from the stream */
+    //printf("hello >>>>\n");
 
     if ( ( ( stream->flags & __FILE_CAN_READ ) == 0 ) ||
          ( __set_stream_flags( stream, __FILE_BUFINPUT ) ) ) {
@@ -34,6 +35,7 @@ int fgetc( FILE* stream ) {
     }
 
     /* Fill the buffer if it's empty */
+
 
     if ( stream->buffer_pos >= stream->buffer_data_size ) {
         ssize_t length;
